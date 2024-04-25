@@ -1,6 +1,16 @@
 "use strict";
-/* Module 2: Declare variable types in TypeScript
-   Lab start  */
+/* Module 2: Declare variable types in TypeScript */
+/*  Exercises  */
+var ContractStatus;
+(function (ContractStatus) {
+    ContractStatus[ContractStatus["Permanent"] = 1] = "Permanent";
+    ContractStatus[ContractStatus["Temp"] = 2] = "Temp";
+    ContractStatus[ContractStatus["Apprentice"] = 3] = "Apprentice";
+})(ContractStatus || (ContractStatus = {}));
+let employeeStatus = ContractStatus.Temp;
+console.log(employeeStatus);
+console.log(ContractStatus[employeeStatus]);
+/*   Laboratory  */
 /*  EXERCISE 1
     TODO: Modify the code to add types to the variable declarations.
     The resulting JavaScript should look the same as the original example when you're done. */

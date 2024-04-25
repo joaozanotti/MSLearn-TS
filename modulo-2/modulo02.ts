@@ -1,5 +1,18 @@
-/* Module 2: Declare variable types in TypeScript
-   Lab start  */
+/* Module 2: Declare variable types in TypeScript */
+
+/*  Exercises  */
+
+enum ContractStatus {
+    Permanent = 1,
+    Temp,
+    Apprentice
+}
+let employeeStatus: ContractStatus = ContractStatus.Temp;
+
+console.log(employeeStatus);
+console.log(ContractStatus[employeeStatus]);
+
+/*   Laboratory  */
 
 /*  EXERCISE 1
     TODO: Modify the code to add types to the variable declarations. 
@@ -77,14 +90,12 @@ console.log(whichMonths(Season.Fall));
 /* EXERCISE 4
    TODO: Declare the array as the type to match the type of the items in the array. */
 
-   let randomNumbers: number[] = [];
-   let nextNumber;
-   
-   for (let i = 0; i < 10; i++) {
-       nextNumber = Math.floor(Math.random() * (100 - 1)) + 1;
-       randomNumbers.push(nextNumber);
-   }
-   
-   console.log(randomNumbers);
+let randomNumbers: number[] = [];
+let nextNumber;
 
-   
+for (let i = 0; i < 10; i++) {
+    nextNumber = Math.floor(Math.random() * (100 - 1)) + 1;
+    randomNumbers.push(nextNumber);
+}
+
+console.log(randomNumbers);  
