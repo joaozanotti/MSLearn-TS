@@ -45,4 +45,4 @@ Este repositório engloba todos os módulos e exercícios do curso da Microsoft 
 
 ## 🚧 Autores
 João Vitor Zanotti<br>
-<a href="https://learn.microsoft.com/pt-br/training/paths/build-javascript-applications-typescript/">Microsoft Learn</a>
+<a href="https://learn.microsoft.com/pt-br/">Microsoft Learn</a>
