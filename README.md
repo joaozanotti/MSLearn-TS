@@ -3,7 +3,7 @@
   <img src="https://learn.microsoft.com/pt-br/windows/images/learn-icon.png" width="500px">
 </div>
 
-## 📄 Descrição do projeto
+## 📝 Descrição do projeto
 Este repositório engloba todos os módulos e exercícios do curso da Microsoft <a href="https://learn.microsoft.com/pt-br/training/paths/build-javascript-applications-typescript/">"Criar aplicativos JavaScript usando o TypeScript"</a>.<br>
 - **Módulo 1**
     - **Título:** Introdução ao TypeScript
@@ -39,8 +39,8 @@ Este repositório engloba todos os módulos e exercícios do curso da Microsoft 
 
 ## 🛠 Tecnologias utilizadas
 <div>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
 ## 🚧 Autores
